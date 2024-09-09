@@ -343,20 +343,5 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
                     break;
             }
         }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void histograma_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtB_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

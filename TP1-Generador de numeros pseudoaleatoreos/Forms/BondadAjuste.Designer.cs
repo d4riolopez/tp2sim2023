@@ -98,7 +98,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             // txtN
             // 
             this.txtN.AcceptsReturn = true;
-            this.txtN.Location = new System.Drawing.Point(483, 10);
+            this.txtN.Location = new System.Drawing.Point(739, 35);
             this.txtN.Name = "txtN";
             this.txtN.Size = new System.Drawing.Size(66, 20);
             this.txtN.TabIndex = 1;
@@ -112,7 +112,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             "15",
             "20",
             "25"});
-            this.cmbK.Location = new System.Drawing.Point(718, 10);
+            this.cmbK.Location = new System.Drawing.Point(739, 10);
             this.cmbK.Name = "cmbK";
             this.cmbK.Size = new System.Drawing.Size(66, 21);
             this.cmbK.TabIndex = 2;
@@ -131,7 +131,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.fe,
             this.estadisticoMuestra,
             this.cAcum});
-            this.dgvChiCuadrado.Location = new System.Drawing.Point(402, 287);
+            this.dgvChiCuadrado.Location = new System.Drawing.Point(403, 296);
             this.dgvChiCuadrado.Name = "dgvChiCuadrado";
             this.dgvChiCuadrado.Size = new System.Drawing.Size(520, 136);
             this.dgvChiCuadrado.TabIndex = 4;
@@ -168,7 +168,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             // 
             // bntPruebaBondad
             // 
-            this.bntPruebaBondad.Location = new System.Drawing.Point(822, 7);
+            this.bntPruebaBondad.Location = new System.Drawing.Point(820, 7);
             this.bntPruebaBondad.Name = "bntPruebaBondad";
             this.bntPruebaBondad.Size = new System.Drawing.Size(103, 23);
             this.bntPruebaBondad.TabIndex = 4;
@@ -180,7 +180,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(339, 12);
+            this.label2.Location = new System.Drawing.Point(600, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(138, 13);
             this.label2.TabIndex = 6;
@@ -190,7 +190,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(555, 13);
+            this.label3.Location = new System.Drawing.Point(582, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(157, 13);
             this.label3.TabIndex = 6;
@@ -206,9 +206,9 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.dgvNros.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.iteracion,
             this.nroAleatorio});
-            this.dgvNros.Location = new System.Drawing.Point(10, 110);
+            this.dgvNros.Location = new System.Drawing.Point(13, 81);
             this.dgvNros.Name = "dgvNros";
-            this.dgvNros.Size = new System.Drawing.Size(209, 246);
+            this.dgvNros.Size = new System.Drawing.Size(209, 255);
             this.dgvNros.TabIndex = 4;
             this.dgvNros.Visible = false;
             // 
@@ -218,7 +218,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 432);
+            this.label1.Location = new System.Drawing.Point(8, 441);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(209, 16);
             this.label1.TabIndex = 6;
@@ -236,7 +236,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             legend1.Name = "Frecuencias";
             legend1.Title = "Frecuencias";
             this.histograma.Legends.Add(legend1);
-            this.histograma.Location = new System.Drawing.Point(262, 92);
+            this.histograma.Location = new System.Drawing.Point(260, 68);
             this.histograma.Name = "histograma";
             this.histograma.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
             series1.ChartArea = "ChartArea1";
@@ -249,10 +249,9 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             series2.Name = "Fe";
             this.histograma.Series.Add(series1);
             this.histograma.Series.Add(series2);
-            this.histograma.Size = new System.Drawing.Size(663, 170);
+            this.histograma.Size = new System.Drawing.Size(663, 203);
             this.histograma.TabIndex = 7;
             this.histograma.Text = "chart1";
-            this.histograma.Click += new System.EventHandler(this.histograma_Click);
             // 
             // label4
             // 
@@ -260,7 +259,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(9, 92);
+            this.label4.Location = new System.Drawing.Point(12, 63);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(217, 15);
             this.label4.TabIndex = 6;
@@ -269,7 +268,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(822, 35);
+            this.btnLimpiar.Location = new System.Drawing.Point(820, 35);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(103, 23);
             this.btnLimpiar.TabIndex = 5;
@@ -281,7 +280,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(14, 12);
+            this.label9.Location = new System.Drawing.Point(12, 15);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(147, 13);
             this.label9.TabIndex = 18;
@@ -297,16 +296,16 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             "Distribucion Exponencial Neg.",
             "Distribucion Uniforme",
             "Distribucion Normal (Box-Muller)"});
-            this.cmbDistribucion.Location = new System.Drawing.Point(172, 9);
+            this.cmbDistribucion.Location = new System.Drawing.Point(162, 12);
             this.cmbDistribucion.Name = "cmbDistribucion";
-            this.cmbDistribucion.Size = new System.Drawing.Size(161, 21);
+            this.cmbDistribucion.Size = new System.Drawing.Size(166, 21);
             this.cmbDistribucion.TabIndex = 0;
             this.cmbDistribucion.SelectedIndexChanged += new System.EventHandler(this.ValidarDistribucion);
             // 
             // btnVolver
             // 
             this.btnVolver.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnVolver.Location = new System.Drawing.Point(11, 610);
+            this.btnVolver.Location = new System.Drawing.Point(11, 619);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(63, 23);
             this.btnVolver.TabIndex = 19;
@@ -321,16 +320,16 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.lblHipotesis.BackColor = System.Drawing.Color.Transparent;
             this.lblHipotesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHipotesis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblHipotesis.Location = new System.Drawing.Point(223, 426);
+            this.lblHipotesis.Location = new System.Drawing.Point(223, 435);
             this.lblHipotesis.Name = "lblHipotesis";
-            this.lblHipotesis.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblHipotesis.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblHipotesis.Size = new System.Drawing.Size(698, 20);
             this.lblHipotesis.TabIndex = 20;
             this.lblHipotesis.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(9, 56);
+            this.button1.Location = new System.Drawing.Point(12, 37);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 23);
             this.button1.TabIndex = 21;
@@ -358,10 +357,10 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.lblHipotesisKs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblHipotesisKs.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHipotesisKs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblHipotesisKs.Location = new System.Drawing.Point(223, 610);
+            this.lblHipotesisKs.Location = new System.Drawing.Point(113, 619);
             this.lblHipotesisKs.Name = "lblHipotesisKs";
-            this.lblHipotesisKs.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblHipotesisKs.Size = new System.Drawing.Size(686, 43);
+            this.lblHipotesisKs.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblHipotesisKs.Size = new System.Drawing.Size(805, 23);
             this.lblHipotesisKs.TabIndex = 20;
             this.lblHipotesisKs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblHipotesisKs.Visible = false;
@@ -372,9 +371,9 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.gbUniforme.Controls.Add(this.label5);
             this.gbUniforme.Controls.Add(this.txtB);
             this.gbUniforme.Controls.Add(this.txtA);
-            this.gbUniforme.Location = new System.Drawing.Point(638, 37);
+            this.gbUniforme.Location = new System.Drawing.Point(353, 8);
             this.gbUniforme.Name = "gbUniforme";
-            this.gbUniforme.Size = new System.Drawing.Size(143, 49);
+            this.gbUniforme.Size = new System.Drawing.Size(140, 49);
             this.gbUniforme.TabIndex = 22;
             this.gbUniforme.TabStop = false;
             this.gbUniforme.Text = "Parametros (Uniforme)";
@@ -399,7 +398,6 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.txtB.Name = "txtB";
             this.txtB.Size = new System.Drawing.Size(39, 20);
             this.txtB.TabIndex = 1;
-            this.txtB.TextChanged += new System.EventHandler(this.txtB_TextChanged);
             // 
             // txtA
             // 
@@ -413,9 +411,9 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             // 
             this.gbPoisson.Controls.Add(this.txtLambdaPoisson);
             this.gbPoisson.Controls.Add(this.textBox2);
-            this.gbPoisson.Location = new System.Drawing.Point(126, 36);
+            this.gbPoisson.Location = new System.Drawing.Point(1, 0);
             this.gbPoisson.Name = "gbPoisson";
-            this.gbPoisson.Size = new System.Drawing.Size(122, 49);
+            this.gbPoisson.Size = new System.Drawing.Size(122, 48);
             this.gbPoisson.TabIndex = 22;
             this.gbPoisson.TabStop = false;
             this.gbPoisson.Text = "Parametros (Poisson)";
@@ -443,9 +441,10 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             // 
             // gbExponencial
             // 
+            this.gbExponencial.Controls.Add(this.gbPoisson);
             this.gbExponencial.Controls.Add(this.label7);
             this.gbExponencial.Controls.Add(this.txtLambdaExponencial);
-            this.gbExponencial.Location = new System.Drawing.Point(475, 37);
+            this.gbExponencial.Location = new System.Drawing.Point(353, 10);
             this.gbExponencial.Name = "gbExponencial";
             this.gbExponencial.Size = new System.Drawing.Size(147, 49);
             this.gbExponencial.TabIndex = 22;
@@ -479,9 +478,9 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.gbNormal.Controls.Add(this.label8);
             this.gbNormal.Controls.Add(this.txtDesviacionNormal);
             this.gbNormal.Controls.Add(this.txtMediaNormal);
-            this.gbNormal.Location = new System.Drawing.Point(263, 36);
+            this.gbNormal.Location = new System.Drawing.Point(353, 11);
             this.gbNormal.Name = "gbNormal";
-            this.gbNormal.Size = new System.Drawing.Size(195, 49);
+            this.gbNormal.Size = new System.Drawing.Size(195, 48);
             this.gbNormal.TabIndex = 22;
             this.gbNormal.TabStop = false;
             this.gbNormal.Text = "Parametros (Normal)";
@@ -534,12 +533,11 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(399, 251);
+            this.label11.Location = new System.Drawing.Point(401, 278);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(164, 16);
             this.label11.TabIndex = 6;
             this.label11.Text = "Test de Chi-Cuadrado:";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // max
             // 
@@ -608,7 +606,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.Pe_acum,
             this.diferencia_PoAC_PeAC,
             this.max});
-            this.dgvKs.Location = new System.Drawing.Point(7, 451);
+            this.dgvKs.Location = new System.Drawing.Point(11, 460);
             this.dgvKs.Name = "dgvKs";
             this.dgvKs.Size = new System.Drawing.Size(911, 153);
             this.dgvKs.TabIndex = 4;
@@ -632,11 +630,10 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(934, 630);
-            this.Controls.Add(this.gbPoisson);
+            this.ClientSize = new System.Drawing.Size(934, 639);
             this.Controls.Add(this.gbExponencial);
-            this.Controls.Add(this.gbUniforme);
             this.Controls.Add(this.gbNormal);
+            this.Controls.Add(this.gbUniforme);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblHipotesisKs);
             this.Controls.Add(this.lblHipotesis);
