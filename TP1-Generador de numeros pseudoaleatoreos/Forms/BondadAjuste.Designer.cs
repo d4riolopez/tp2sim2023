@@ -133,7 +133,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.cAcum});
             this.dgvChiCuadrado.Location = new System.Drawing.Point(403, 296);
             this.dgvChiCuadrado.Name = "dgvChiCuadrado";
-            this.dgvChiCuadrado.Size = new System.Drawing.Size(520, 136);
+            this.dgvChiCuadrado.Size = new System.Drawing.Size(520, 119);
             this.dgvChiCuadrado.TabIndex = 4;
             // 
             // intervalo
@@ -318,12 +318,12 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.lblHipotesis.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHipotesis.BackColor = System.Drawing.Color.Transparent;
-            this.lblHipotesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHipotesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHipotesis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblHipotesis.Location = new System.Drawing.Point(223, 435);
+            this.lblHipotesis.Location = new System.Drawing.Point(223, 418);
             this.lblHipotesis.Name = "lblHipotesis";
             this.lblHipotesis.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblHipotesis.Size = new System.Drawing.Size(698, 20);
+            this.lblHipotesis.Size = new System.Drawing.Size(698, 37);
             this.lblHipotesis.TabIndex = 20;
             this.lblHipotesis.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -355,12 +355,12 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHipotesisKs.BackColor = System.Drawing.Color.Transparent;
             this.lblHipotesisKs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblHipotesisKs.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHipotesisKs.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHipotesisKs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblHipotesisKs.Location = new System.Drawing.Point(113, 619);
+            this.lblHipotesisKs.Location = new System.Drawing.Point(116, 597);
             this.lblHipotesisKs.Name = "lblHipotesisKs";
             this.lblHipotesisKs.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblHipotesisKs.Size = new System.Drawing.Size(805, 23);
+            this.lblHipotesisKs.Size = new System.Drawing.Size(805, 33);
             this.lblHipotesisKs.TabIndex = 20;
             this.lblHipotesisKs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblHipotesisKs.Visible = false;
@@ -608,7 +608,7 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Forms
             this.max});
             this.dgvKs.Location = new System.Drawing.Point(11, 460);
             this.dgvKs.Name = "dgvKs";
-            this.dgvKs.Size = new System.Drawing.Size(911, 153);
+            this.dgvKs.Size = new System.Drawing.Size(911, 134);
             this.dgvKs.TabIndex = 4;
             // 
             // iteracion
