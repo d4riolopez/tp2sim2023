@@ -1,0 +1,11 @@
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\bin\Debug\TP1-Generador de numeros pseudoaleatoreos.exe.config
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\bin\Debug\TP1-Generador de numeros pseudoaleatoreos.exe
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\bin\Debug\TP1-Generador de numeros pseudoaleatoreos.pdb
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\obj\Debug\TP2Generador de numeros pseudoaleatoreos.csproj.AssemblyReference.cache
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\obj\Debug\TP2_Generador_de_numeros_pseudoaleatoreos.Forms.BondadAjuste.resources
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\obj\Debug\TP2_Generador_de_numeros_pseudoaleatoreos.Forms.Home.resources
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\obj\Debug\TP1_Generador_de_numeros_pseudoaleatoreos.Properties.Resources.resources
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\obj\Debug\TP2Generador de numeros pseudoaleatoreos.csproj.GenerateResource.cache
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\obj\Debug\TP2Generador de numeros pseudoaleatoreos.csproj.CoreCompileInputs.cache
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\obj\Debug\TP1-Generador de numeros pseudoaleatoreos.exe
+C:\Users\dario\Source\Repos\tp2sim2023\TP1-Generador de numeros pseudoaleatoreos\obj\Debug\TP1-Generador de numeros pseudoaleatoreos.pdb
