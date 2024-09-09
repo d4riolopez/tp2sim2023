@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TP2_Generador_de_numeros_pseudoaleatoreos.Properties {
+namespace TP1_Generador_de_numeros_pseudoaleatoreos.Properties {
     using System;
     
     
@@ -57,6 +57,16 @@ namespace TP2_Generador_de_numeros_pseudoaleatoreos.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pruebas_De_Bondad {
+            get {
+                object obj = ResourceManager.GetObject("pruebas.De.Bondad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
